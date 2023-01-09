@@ -1,0 +1,9 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 45px;
+    justify-items: center;
+    padding: 0 30px 100px 30px;
+    background-color: #f9f9f9;
+}

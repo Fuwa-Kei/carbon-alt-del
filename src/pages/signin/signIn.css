@@ -1,0 +1,40 @@
+.signOption {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 50px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.signOption-signin {
+    color: var(--medium-color)
+}
+
+.signOption-signup {
+    color: #dddddd; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+input {
+    background-color: white;
+    border: 1px solid #f3f3f3;
+    outline: none;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+}
+
+input::placeholder {
+    text-transform: uppercase;
+    color: #cbcbcb;
+}
+
+.register {
+    margin: 30px auto 100px auto;
+}
