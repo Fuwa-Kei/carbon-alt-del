@@ -20,7 +20,7 @@ function ProductCard({id, img, name, carbon, price}) {
                 Price from: ${price}
             </div>
             <div className="product-links">
-                <Link to="#">Compare</Link>
+                <Link to={`/products/${id}`}>Compare</Link>
                 <div className="add-button" onClick={() => addToCart(id)}> 
                     ADD {cartItemAmount > 0 && <> ({cartItemAmount})</>}
                 </div>

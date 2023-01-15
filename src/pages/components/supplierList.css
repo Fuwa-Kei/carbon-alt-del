@@ -1,0 +1,20 @@
+.supplier-list {
+    padding: 0px 100px 50px 100px;
+    background-color: #f9f9f9;
+}
+.supplier-list > div:nth-child(odd){
+    background-color: white;
+    border: none;
+}
+.supplier {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr 1fr;
+    align-items: left;
+    padding: 20px 0 20px 20px;
+    border: 1px solid #f5f5f5;
+    font-size: 15px;
+}
+.supplier-name {
+    font-weight: bold;
+    color: var(--medium-color)
+}

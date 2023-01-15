@@ -1,0 +1,17 @@
+.single-product-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 100px 10px 100px;
+    background-color: #f9f9f9;
+}
+.single-product-info {
+    text-align: left;
+    padding: 0 0 0px 50px;
+}
+.single-product-name {
+    font-size: 24px;
+    color: var(--light-color);
+    font-weight: 600;
+    padding: 0 0 30px 0px;
+}

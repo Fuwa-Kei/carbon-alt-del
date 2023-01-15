@@ -5,18 +5,18 @@ import CartItem from '../components/CartItem';
 import Search from '../components/Search';
 import Button from '../components/Button'
 import './cart.css'
+import Back from '../components/Back';
 
 function Cart() {
 
   const { cartItems, getTotalCartAmount} = useContext(ShopContext);
-  const totalAmount = getTotalCartAmount();
+  const totalAmount = (Math.round(getTotalCartAmount() * 100) / 100).toFixed(2);
 
   return (
     <div>
       <Search pageName='Cart' />
+      <Back url='../products' />
     <div className="cart">
-      <h3>Cart Items</h3>
-    </div>
     <div className="cartItems">
         {productDetails.map((detail) => {
             if(cartItems[detail.id] !== 0) {
@@ -25,11 +25,13 @@ function Cart() {
             }
         })}
     </div>
+    {totalAmount > 0 ?
     <div className="cartTotal">
       <p>Total: ${totalAmount}</p>
       <Button url="/checkout" text="Place Order" />
+    </div> 
+    : <p>Your cart is empty</p>}
     </div>
-
     </div>
   )
 }

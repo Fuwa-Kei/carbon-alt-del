@@ -1,0 +1,11 @@
+.back {
+    display: flex;
+    align-items: center;
+    padding: 0px 0 50px 50px;
+    background-color: #f9f9f9;
+}
+.arrow-icon {
+    opacity: 0.3;
+    height: 13px;
+    padding: 0 10px 20px 0px;
+}
