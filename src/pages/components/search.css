@@ -28,11 +28,3 @@
     border: 1px solid WHITE;
     font-size: 17px;
 }
-
-.cart {
-    margin-right: 30px;
-    /* font-size: 26px; */
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}

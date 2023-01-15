@@ -18,7 +18,7 @@ const productDetails = [
         image: require('../../assets/products/eggs.jpg'),
         name: "Egg",
         carbon: "A",
-        price: "$2.99"
+        price: 2.99
     },
     {
         id: "4",

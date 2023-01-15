@@ -6,11 +6,14 @@ import Home from './pages/home/Home';
 import SignUp from './pages/signup/SignUp';
 import SignIn from './pages/signin/SignIn';
 import Products from './pages/products/Products';
+import Cart from './pages/cart/Cart';
+import {ShopContextProvider} from './context/shop-context';
 
 function App() {
   return (
-    <Router>
     <div className="App">
+      <ShopContextProvider> 
+    <Router>
       <Navbar />
     <div className="container">
       <Routes>
@@ -18,11 +21,13 @@ function App() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/products" element={<Products />} />
+      <Route path="/cart" element={<Cart /> } />
       </Routes>
     </div>
       <Footer />
-    </div>
     </Router>
+    </ShopContextProvider>
+    </div>
   );
 }
 

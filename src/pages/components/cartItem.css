@@ -1,0 +1,44 @@
+
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    margin: 0 100px 30px 100px;
+}
+
+.cart-img {
+    width: 150px;
+}
+.cart-item-name{
+    font-weight: bold;
+    color: var(--light-color);
+}
+.cart-info {
+    padding: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.cart-item-info {
+    display: flex;
+    gap: 50px;
+    margin: 10px 0;
+}
+
+.cartCount {
+    display: flex;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.countHandler input{
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    height: 35px;
+    width: 30px;
+    border: none;
+}
