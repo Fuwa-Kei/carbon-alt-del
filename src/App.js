@@ -10,6 +10,7 @@ import Cart from './pages/cart/Cart';
 import Account from './pages/account/Account';
 import {ShopContextProvider} from './context/shop-context';
 import SingleProductPage from './pages/single/SingleProductPage';
+import OrderComplete from './pages/orderComplete/OrderComplete';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/products" element={<Products />}>
         <Route path=":productId" element={<SingleProductPage />} /></Route>
       <Route path ="/account" element={<Account /> } />
+      <Route path ="/checkout" element={<OrderComplete />} />
       </Routes>
     </div>
       <Footer />
