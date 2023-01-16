@@ -7,6 +7,7 @@ import SignUp from './pages/signup/SignUp';
 import SignIn from './pages/signin/SignIn';
 import Products from './pages/products/Products';
 import Cart from './pages/cart/Cart';
+import Account from './pages/account/Account';
 import {ShopContextProvider} from './context/shop-context';
 import SingleProductPage from './pages/single/SingleProductPage';
 
@@ -21,9 +22,10 @@ function App() {
       <Route exact path="/" element={<Home />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />
-      <Route path="/products" element={<Products />} />
       <Route path="/cart" element={<Cart /> } />
-      <Route path="/products/:productId" element={<SingleProductPage />} />
+      <Route path="/products" element={<Products />}>
+        <Route path=":productId" element={<SingleProductPage />} /></Route>
+      <Route path ="/account" element={<Account /> } />
       </Routes>
     </div>
       <Footer />

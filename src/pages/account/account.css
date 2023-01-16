@@ -1,0 +1,121 @@
+.account-container {
+    background-color: #f9f9f9;
+}
+
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 90px 100px 30px 100px;
+}
+
+.account-header span {
+    font-weight: bold;
+}
+
+.account-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 200px 50px 200px;
+}
+.profile {
+    flex: 1;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 30px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.order-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* carbon chart */
+.carbon-history-info {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding: 20px 30px 10px 30px;
+    margin: 0 200px 30px 200px;
+}
+.carbon-history-header {
+    padding: 0 0 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--light-color);
+}
+.carbon-history-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carbon-history-chart img {
+    width: 100%;
+}
+
+.profile-offset {
+    margin: 0 200px 100px 200px;
+}
+.profile-offset-info {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 30px;
+}
+.profile-offset-header {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: var(--light-color);
+}
+.profile-offset-amount {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.profile-offset-amount label {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.profile-offset-amount input {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 850px) {
+    .account-info {
+        flex-direction: column;
+        margin: 0 10px 20px 10px;
+    }
+
+    .carbon-history-info {
+        margin: 0 10px 30px 10px;
+    }
+
+    .profile-offset {
+        margin: 0 10px 50px 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carbon-history-info {
+        display: none;
+    }
+}

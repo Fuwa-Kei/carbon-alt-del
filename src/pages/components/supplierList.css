@@ -18,3 +18,8 @@
     font-weight: bold;
     color: var(--medium-color)
 }
+
+.add-cart {
+    cursor: pointer;
+    color: var(--medium-color)
+}

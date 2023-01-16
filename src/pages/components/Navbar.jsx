@@ -12,7 +12,7 @@ function Navbar() {
         <div className="navBar-main">
             <h1>CarbonAltDel</h1>
             <div className="nav-links">
-                <Link to="/">Account</Link>
+                <Link to="/account">Account</Link>
                 <Link to="/products">Products</Link>
                 <Link to="/">Sign Out</Link>
             </div>
