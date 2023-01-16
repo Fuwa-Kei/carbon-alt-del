@@ -26,7 +26,7 @@ function Navbar() {
             {toggleMenu && (
               <div className="navbar-menu-container">
                 <div className="navbar-menu-container-links">
-                    <Link to="/">Account</Link>
+                    <Link to="/account">Account</Link>
                     <Link to="/products">Products</Link>
                     <Link to="/">Sign Out</Link>
                 </div>
