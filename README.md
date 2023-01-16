@@ -1,3 +1,9 @@
+Winner of Lloyds Banking Group Athena Virtual Hackathon - Journey to Net Zero Entry by @trinayau and @Fuwa-Kei
+
+My role: UI/UX design Front-end/react 
+
+Full stack app - https://github.com/Fuwa-Kei/lloyds-hackathon-netzero
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
